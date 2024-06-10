@@ -147,6 +147,7 @@ def app():
     st.title("Right High Knee Exercise")
     remind_text = "**Make sure to allow access of your camera and speaker. Refresh the website if there is a lag.**"
     st.markdown(remind_text)
+    st.image('high_knee_angle.png')
     remark_text = "**Perfect angle for a high knee is 85 degree to 125 degree. Try now with your right leg! Make sure to show your lower/full body with your right leg (side) into your webcam.**"
     st.markdown(remark_text)
 

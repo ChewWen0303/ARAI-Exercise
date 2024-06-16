@@ -145,7 +145,7 @@ class VideoProcessor:
 def app():
     st.set_page_config(layout="wide")
     st.title("Right High Knee Exercise")
-    remind_text = "**Make sure to allow access of your camera and speaker. Refresh the website if there is a lag.**"
+    remind_text = "**Make sure to allow access of your camera and speaker. Kindly wait a while for the webcam to open. Refresh the website if there is a lag.**"
     st.markdown(remind_text)
     st.image('high_knee_angle.png')
     remark_text = "**Perfect angle for a high knee is 85 degree to 125 degree. Try now with your right leg! Make sure to show your lower/full body with your right leg (side) into your webcam.**"
